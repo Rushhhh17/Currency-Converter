@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> $ Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="1" type="text">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                        <select name="from">
+                        
+                            <option value="USD"selected>USD</option>
+                        </select>
+                    </div>
+                   
+                </div>
+                <i class="fa-sharp-duotone fa-solid fa-right-left fa-fade" style="--fa-primary-color: #010a0e; --fa-secondary-color: #010a0e;"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+                            <option value="INR" selected>INR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1USD=85INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- 
+try to work on swapping both currencies using that icon
+work on api and css
+and also when loading the page 
+last 10mins of lec 13 of java script -->
